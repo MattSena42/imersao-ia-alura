@@ -1,0 +1,6 @@
+google-generativeai
+python-dotenv
+google-adk
+Flask
+Flask-CORS
+requests

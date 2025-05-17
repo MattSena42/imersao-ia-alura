@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Vagas - Imersão IA</title> <!-- Título da aba do navegador atualizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Imersão IA Alura + Google Gemini</h1>
+            <h2>Seu Buscador Inteligente de Vagas</h2>
+        </header>
+
+        <div class="search-form"> <!-- Apenas uma div search-form aqui -->
+            <div class="form-group">
+                <label for="cargo">Cargo Desejado:</label>
+                <input type="text" id="cargo" name="cargo" placeholder="Ex: Desenvolvedor Python">
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade Principal:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Ex: São Paulo">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="buscar_proximas" name="buscar_proximas">
+                <label for="buscar_proximas">Buscar em cidades próximas também?</label>
+            </div>
+            <button id="btnBuscar">Buscar Vagas</button>
+        </div> <!-- Fim da div search-form -->
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div class="results-section"> <!-- Opcional: agrupar título e resultados -->
+            <h2>Resultados:</h2>
+            <div id="resultadosVagas" class="results-container">
+                <!-- As vagas serão inseridas aqui pelo JavaScript -->
+            </div>
+        </div>
+
+        <div id="paginationControls" class="pagination">
+            <!-- Controles de paginação (Ex: botão "Ver mais") serão inseridos aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
