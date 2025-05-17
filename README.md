@@ -76,7 +76,7 @@ A comunicação entre o frontend e o backend é feita através de uma API RESTfu
 2.  **Configuração do Projeto:**
     *   Clone o repositório:
         ```bash
-        git clone https://github.com/MattSena42/gemini_job_search_agent.git # ATUALIZE COM SEU LINK CORRETO
+        git clone https://github.com/MattSena42/imersao-ia-alura.git
         ```
     *   Navegue para a pasta do projeto:
         ```bash
